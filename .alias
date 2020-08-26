@@ -1,0 +1,31 @@
+#!/bin/sh
+
+alias scim="sc-im"
+
+alias hotkeys="vim ~/.config/sxhkd/sxhkdrc"
+alias zshconfig="vim ~/.zshrc"
+alias sourcezsh="source ~/.zshrc"
+
+alias tmuxconfig="vim ~/.tmux.conf"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias alaconfig="vim ~/.config/alacritty/alacritty.yml"
+
+# folders
+alias please='sudo $(fc -ln -1)'
+alias vimedit="vim ~/.config/nvim/init.vim"
+alias vimconfig="cd ~/.config/nvim/pieces"
+alias vimplug="vim ~/.config/nvim/pieces/plug.vim"
+alias vimlint="vim ~/.config/nvim/pieces/plugin_ale.vim"
+alias watch="watch -n 1"
+alias size="du -sh"
+alias sizeall="sudo du -sh $(ls -a)"
+alias space='df -h | awk "NR==1 || /\s*\/\s*$/ || /\/home/"'
+alias rs="clear && printf '\e[3J'"
+alias dclean="docker system prune && docker image prune -a"
+alias ipa='curl ipinfo.io/ip'
+alias ccat='highlight --out-format=ansi --force'
+alias xclip='xclip -sel clip'
+alias gateway='ip route | head -1 | awk "{print \$3}"'
+alias timer="/usr/bin/time --format='%C took %e seconds'"
+# helpers
+alias tmuxhelp='less $HOME/.helpers/tmuxhelp'

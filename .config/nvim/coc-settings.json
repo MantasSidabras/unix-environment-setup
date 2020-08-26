@@ -1,0 +1,13 @@
+{
+  "diagnostic.displayByAle": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript","javascript", "markdown"],
+
+    "explorer.width": 40,
+    "explorer.icon.enableNerdfont": false,
+    "explorer.previewAction.onHover": false,
+    "explorer.keyMappings": {
+      "<cr>": ["expandable?", "expand", "open"],
+      "v": "open:vsplit"
+    }
+}

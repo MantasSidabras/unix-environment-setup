@@ -1,0 +1,25 @@
+[user]
+  email = sid.mantas@gmail.com
+  name = MantasSidabras
+[core]
+  editor = vim
+[alias]
+  createfeature = "!f(){ \
+    git checkout master && \
+    git pull --rebase origin master && \
+    git checkout -b $1; \
+  }; f"
+  deploystaging = "!f(){ \
+    git checkout $1 &&  \
+    git pull --rebase origin master && \
+    git checkout staging && \
+    git pull --rebase origin staging && \
+    git merge $1 && \
+    git push origin staging; \
+  }; f"
+  deployproduction = "!f(){ \
+    git checkout $1 && \
+    git pull --rebase origin master && \
+    git push origin $1; \
+  }; f"
+  unstage = reset HEAD --

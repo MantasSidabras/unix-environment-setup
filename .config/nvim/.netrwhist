@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/mantas/Code/bedlam-cube-2d/src/puzzle'
+let g:netrw_dirhist_3='/home/mantas/Code/bedlam-cube-2d/src'
+let g:netrw_dirhist_2='/home/mantas/Code/bedlam-cube-2d'
+let g:netrw_dirhist_1='/home/mantas/Code'
+let g:netrw_dirhist_0='/home/mantas'
+let g:netrw_dirhist_9='/home/mantas/.scim'
+let g:netrw_dirhist_8='/home/mantas/Code/add/add-one/src'
+let g:netrw_dirhist_7='/home/mantas/Code/add/add-one'
+let g:netrw_dirhist_6='/home/mantas/Code/add/add-one/src'
+let g:netrw_dirhist_5='/home/mantas/Code/add/add-one'
